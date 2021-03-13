@@ -15,6 +15,8 @@
 		5F72478825E9E6D40080F255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F72478625E9E6D40080F255 /* LaunchScreen.storyboard */; };
 		5F72479325E9E6D50080F255 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72479225E9E6D50080F255 /* FlashcardsTests.swift */; };
 		5F72479E25E9E6D50080F255 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F72479D25E9E6D50080F255 /* FlashcardsUITests.swift */; };
+		5FB63C0225FC6A9800133165 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB63C0125FC6A9800133165 /* CreationViewController.swift */; };
+		5FB63C0725FC6F1E00133165 /* CreationViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB63C0625FC6F1E00133165 /* CreationViewControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F72479925E9E6D50080F255 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F72479D25E9E6D50080F255 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		5F72479F25E9E6D50080F255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB63C0125FC6A9800133165 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
+		5FB63C0625FC6F1E00133165 /* CreationViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		5F72476F25E9E6D30080F255 = {
 			isa = PBXGroup;
 			children = (
+				5FB63C0625FC6F1E00133165 /* CreationViewControllerViewController.swift */,
+				5FB63C0125FC6A9800133165 /* CreationViewController.swift */,
 				5F72477A25E9E6D30080F255 /* Flashcards */,
 				5F72479125E9E6D50080F255 /* FlashcardsTests */,
 				5F72479C25E9E6D50080F255 /* FlashcardsUITests */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB63C0725FC6F1E00133165 /* CreationViewControllerViewController.swift in Sources */,
 				5F72478025E9E6D40080F255 /* ViewController.swift in Sources */,
 				5F72477C25E9E6D40080F255 /* AppDelegate.swift in Sources */,
 				5F72477E25E9E6D40080F255 /* SceneDelegate.swift in Sources */,
+				5FB63C0225FC6A9800133165 /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
